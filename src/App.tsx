@@ -52,7 +52,7 @@ export default function App() {
               <div className="flex gap-2 text-pink-soft/60">
                 <span>[system]</span>
                 <Typewriter 
-                  text="Initializing heart.PROTOCOL_v2.0..." 
+                  text="Initializing heart.PROTOCOL_FORMH.0..." 
                   delay={30} 
                   onComplete={() => setConsoleFinished(true)}
                 />
@@ -78,7 +78,7 @@ export default function App() {
                   className="pt-8 flex flex-col items-start gap-6"
                 >
                   <p className="text-white/40 italic">
-                    {">"} One encrypted package found for you.
+                    {">"} Hey, MH. One encrypted package found for you.
                   </p>
                   
                   <button
@@ -96,7 +96,7 @@ export default function App() {
                   
                   <p className="text-[10px] text-white/20 animate-pulse">
                     (or just click anywhere)
-                  </p>
+                  </p>  
                 </motion.div>
               )}
             </div>
